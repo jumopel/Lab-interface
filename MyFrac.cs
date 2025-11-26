@@ -52,5 +52,6 @@ namespace lab_interface
              Numerator * b.Denominator - b.Numerator * Denominator,
              Denominator * b.Denominator);
         }
+        public override string ToString() => $"{Numerator}/{Denominator}";
     }
 }

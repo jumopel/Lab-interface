@@ -41,5 +41,6 @@ namespace lab_interface
         {
             return new MyComplex(Real - b.Real, Imag - b.Imag);
         }
+        public override string ToString() => $"{Real} + {Imag}i";
     }
 }
