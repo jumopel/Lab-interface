@@ -15,6 +15,12 @@ namespace lab_interface
             Real = real;
             Imag = imag;
         }
+        public MyComplex(double Real) : this(Real, 0)
+        {
+        }
+        public MyComplex() : this(0, 0)
+        {
+        }
         public MyComplex Add(MyComplex b)
         {
         return new MyComplex(Real + b.Real, Imag + b.Imag);

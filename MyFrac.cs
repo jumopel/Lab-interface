@@ -23,6 +23,18 @@ namespace lab_interface
             Numerator = num / g;
             Denominator = den / g;
         }
+        public MyFrac(int nom, int denom) : this(new BigInteger(nom), new BigInteger(denom))
+        {
+        }
+
+        public MyFrac(int nom) : this(new BigInteger(nom), BigInteger.One)
+        {
+        }
+
+        public MyFrac() : this(BigInteger.Zero, BigInteger.One)
+        {
+        }
+
         public MyFrac Add(MyFrac b)
         {
             return new MyFrac(
