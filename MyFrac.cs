@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace lab_interface
 {
-    internal class MyFrac : IMyNumber<MyFrac>
+    public class MyFrac : IMyNumber<MyFrac>
     {
         public BigInteger Numerator { get; }
         public BigInteger Denominator { get; }

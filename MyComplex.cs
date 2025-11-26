@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_interface
 {
-    internal class MyComplex : IMyNumber<MyComplex>
+    public class MyComplex : IMyNumber<MyComplex>
     {
         public double Real { get; }
         public double Imag { get; }

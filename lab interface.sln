@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab interface", "lab interface.csproj", "{512D58C1-DD9C-44DF-9411-8092AFFA0E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab interface.Tests", "..\lab interface.Tests\lab interface.Tests.csproj", "{39D461D8-713A-4015-AA48-1DBF56F22789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{512D58C1-DD9C-44DF-9411-8092AFFA0E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512D58C1-DD9C-44DF-9411-8092AFFA0E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512D58C1-DD9C-44DF-9411-8092AFFA0E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D461D8-713A-4015-AA48-1DBF56F22789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D461D8-713A-4015-AA48-1DBF56F22789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D461D8-713A-4015-AA48-1DBF56F22789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D461D8-713A-4015-AA48-1DBF56F22789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
